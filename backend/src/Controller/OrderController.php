@@ -121,7 +121,7 @@ class OrderController extends BaseController
     }
     
     //To accept the order AND change state
-    //state:on way to pick order or in store or picked or ongoing or cash or deliverd
+    //state:on way to pick order or in store or picked or ongoing or cash or delivered
     /**
      * @Route("/orderUpdateState", name="orderUpdateStateByCaptain", methods={"PUT"})
      * @IsGranted("ROLE_CAPTAIN")
