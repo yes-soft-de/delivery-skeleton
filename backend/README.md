@@ -381,6 +381,16 @@ methods: GET
 /ordercancel/{orderNumber}
 methods: PUT
 ```
+### Get Orders By Client ID
+```
+/ordersbyclientid
+methods: GET
+```
+### Order Update By Client
+```
+/orderUpdatebyclient
+methods: PUT
+```
 ### Store Category
 ### Create Store Category
 ```
